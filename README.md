@@ -55,6 +55,7 @@ Experimental Setup
 Results
 1. 전체 데이터셋 감성분석 비율 (총 179,113개 트윗 대상)
 ![whole](/images/whole_dataset.png)
+
 | Sentiment | Ratio (%)   |
 |-----------|-------------|
 | neutral   | 52.843863   |
@@ -64,6 +65,7 @@ Results
 
 2. Reservoir Sampling 감성분석 비율 (10,000개 샘플)
 ![whole](/images/reservoir.png)
+
 | Sentiment | Ratio (%) |
 |-----------|-----------|
 | neutral   | 50.33     |
@@ -73,6 +75,7 @@ Results
 
 3. Count-Min Sketch 감성분석 비율 (width=1000 가정)
 ![whole](/images/whole_dataset.png)
+
 | Sentiment | Ratio (%)   |
 |-----------|-------------|
 | neutral   | 52.843536   |
