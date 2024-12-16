@@ -1,6 +1,6 @@
 # Overview
 
-이 프로젝트는 covid19_tweets.csv 데이터를 실시간 스트리밍 환경(Kafka)에서 처리하고, 감성 분석(Sentiment Analysis)을 통해 트윗의 감정 분포 변화를 관찰하는 실험을 다룹니다. 또한, 일반적인 전체 데이터 처리와 비교하여 Reservoir Sampling과 **Count-Min Sketch(CMS)**를 활용한 근사 추정 방법의 결과를 비교합니다.
+이 프로젝트는 covid19_tweets.csv 데이터를 실시간 스트리밍 환경(Kafka)에서 처리하고, 감성 분석(Sentiment Analysis)을 통해 트윗의 감정 분포 변화를 관찰하는 실험을 다룹니다. 또한, 일반적인 전체 데이터 처리와 비교하여 **Reservoir Sampling** 과 **Count-Min Sketch(CMS)** 를 활용한 근사 추정 방법의 결과를 비교합니다.
 
 ## Components
 - Producer (producer.py):
