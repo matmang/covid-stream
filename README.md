@@ -74,7 +74,7 @@ consumer 종료 후 cms_sentiment_results.csv가 생성됩니다.
 
 
 3. Count-Min Sketch 감성분석 비율 (width=1000 가정)
-![whole](/images/whole_dataset.png)
+![whole](/images/count-min.png)
 
 | Sentiment | Ratio (%)   |
 |-----------|-------------|
